@@ -8,6 +8,13 @@
   /* flex-direction: row;
   flex-wrap: nowrap; */
   align-items: center;
+  /* space-between : flex box item 사이에 빈공간 추가
+  space-around : flex box item의 양쪽 끝에 빈공간 추가
+  space-evenly : space-around와 유사하지만, 공백이 일정하게 나눠짐
+  center : flex box item이 가운데에 배치되고 양쪽 끝에 빈공간 추가
+  flex-start (default): flex box item이 왼쪽정렬되고 오른쪽에 빈공간
+  flex-end : flex box item이 오른쪽 정렬되고 왼쪽에 빈공간 */
+  justify-content: space-between;
 }
 
 p {
