@@ -7,6 +7,7 @@
   flex-wrap : nowrap, wrap */
   /* flex-direction: row;
   flex-wrap: nowrap; */
+  align-items: center;
 }
 
 p {
