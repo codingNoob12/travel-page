@@ -9,6 +9,13 @@ ul {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
@@ -17,4 +24,13 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+/* ul 전체 요소의 속성을 변경하는 것보다 특정 요소의 속성을 변경 */
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
 }
